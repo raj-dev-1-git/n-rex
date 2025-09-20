@@ -4,7 +4,7 @@ import urllib.request
 
 class DNN:
     url_map = {
-        "dnn-tiny": "https://github.com/raj-dev-1-git/n-rex/blob/master/weights/dnn_tiny.pkl"
+        "dnn-tiny":"https://github.com/raj-dev-1-git/n-rex/raw/refs/heads/master/weights/dnn_tiny.pkl"
     }
 
     def __init__(self, name_or_path="dnn-tiny"):
